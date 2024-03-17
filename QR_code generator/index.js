@@ -11,7 +11,7 @@ import fs from 'fs';
 inquirer
   .prompt([
     {
-      message:"Type in your URL: ",
+      message:"Type in your URL: ", //https://wbmdfcscholarship.in/server/choose_server?dect_re=/main/track_appli1
       name:"URL"}
   ])
   .then((answers) => {
